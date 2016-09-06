@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /media/sf_ishan_gamestats/application/libraries</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../js/html5shiv.min.js"></script>
+  <script src="../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">/media/sf_ishan_gamestats/application</a></li>
+        <li><a href="index.html">libraries</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="JSMin.php.html#60">JSMin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MY_session.php.html#30">MY_Session</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cssmin.php.html#450">Minify_CommentPreserver</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cssmin.php.html#108">Minify_CSS</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cssmin.php.html#61">cssmin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Memcached_Library.php.html#4">Memcached_Library</a></td><td class="text-right">13%</td></tr>
+       <tr><td><a href="Application_log.php.html#3">Application_Log</a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="Assets.php.html#14">Assets</a></td><td class="text-right">37%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="JSMin.php.html#60">JSMin</a></td><td class="text-right">4970</td></tr>
+       <tr><td><a href="Assets.php.html#14">Assets</a></td><td class="text-right">3113</td></tr>
+       <tr><td><a href="Memcached_Library.php.html#4">Memcached_Library</a></td><td class="text-right">1928</td></tr>
+       <tr><td><a href="MY_session.php.html#30">MY_Session</a></td><td class="text-right">1406</td></tr>
+       <tr><td><a href="Cssmin.php.html#108">Minify_CSS</a></td><td class="text-right">870</td></tr>
+       <tr><td><a href="Application_log.php.html#3">Application_Log</a></td><td class="text-right">517</td></tr>
+       <tr><td><a href="Cssmin.php.html#450">Minify_CommentPreserver</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Cssmin.php.html#61">cssmin</a></td><td class="text-right">42</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="MY_session.php.html#47"><abbr title="MY_Session::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JSMin.php.html#347"><abbr title="JSMin::peek">peek</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JSMin.php.html#300"><abbr title="JSMin::next">next</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MY_session.php.html#73"><abbr title="MY_Session::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MY_session.php.html#112"><abbr title="MY_Session::sess_create">sess_create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MY_session.php.html#160"><abbr title="MY_Session::userdata">userdata</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MY_session.php.html#148"><abbr title="MY_Session::sess_destroy">sess_destroy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MY_session.php.html#134"><abbr title="MY_Session::is_expired">is_expired</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JSMin.php.html#204"><abbr title="JSMin::min">min</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JSMin.php.html#199"><abbr title="JSMin::isAlphaNum">isAlphaNum</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cssmin.php.html#513"><abbr title="Minify_CommentPreserver::_nextComment">_nextComment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cssmin.php.html#481"><abbr title="Minify_CommentPreserver::process">process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cssmin.php.html#423"><abbr title="Minify_CSS::_fontFamilyCB">_fontFamilyCB</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JSMin.php.html#76"><abbr title="JSMin::minify">minify</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JSMin.php.html#84"><abbr title="JSMin::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JSMin.php.html#168"><abbr title="JSMin::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="JSMin.php.html#95"><abbr title="JSMin::action">action</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MY_session.php.html#184"><abbr title="MY_Session::set_userdata">set_userdata</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MY_session.php.html#204"><abbr title="MY_Session::unset_userdata">unset_userdata</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Memcached_Library.php.html#305"><abbr title="Memcached_Library::flush">flush</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Memcached_Library.php.html#260"><abbr title="Memcached_Library::replace">replace</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Memcached_Library.php.html#225"><abbr title="Memcached_Library::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Memcached_Library.php.html#318"><abbr title="Memcached_Library::getversion">getversion</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Memcached_Library.php.html#332"><abbr title="Memcached_Library::getstats">getstats</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Memcached_Library.php.html#379"><abbr title="Memcached_Library::key_name">key_name</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Memcached_Library.php.html#356"><abbr title="Memcached_Library::setcompressthreshold">setcompressthreshold</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Memcached_Library.php.html#187"><abbr title="Memcached_Library::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Memcached_Library.php.html#143"><abbr title="Memcached_Library::set">set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MY_session.php.html#266"><abbr title="MY_Session::keep_flashdata">keep_flashdata</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MY_session.php.html#242"><abbr title="MY_Session::set_flashdata">set_flashdata</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MY_session.php.html#228"><abbr title="MY_Session::all_userdata">all_userdata</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MY_session.php.html#286"><abbr title="MY_Session::flashdata">flashdata</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MY_session.php.html#299"><abbr title="MY_Session::_flashdata_mark">_flashdata_mark</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Memcached_Library.php.html#99"><abbr title="Memcached_Library::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MY_session.php.html#320"><abbr title="MY_Session::_flashdata_sweep">_flashdata_sweep</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cssmin.php.html#309"><abbr title="Minify_CSS::_commentCB">_commentCB</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cssmin.php.html#365"><abbr title="Minify_CSS::_urlCB">_urlCB</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Assets.php.html#92"><abbr title="Assets::remove">remove</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application_log.php.html#231"><abbr title="Application_Log::close_log">close_log</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Assets.php.html#208"><abbr title="Assets::group">group</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Assets.php.html#427"><abbr title="Assets::get_combined_link">get_combined_link</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Assets.php.html#546"><abbr title="Assets::get_minified_path">get_minified_path</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Assets.php.html#507"><abbr title="Assets::get_combined_minified_link">get_combined_minified_link</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application_log.php.html#226"><abbr title="Application_Log::clean_content">clean_content</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application_log.php.html#199"><abbr title="Application_Log::save_journal_file">save_journal_file</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application_log.php.html#76"><abbr title="Application_Log::write_error">write_error</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application_log.php.html#51"><abbr title="Application_Log::write_log">write_log</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application_log.php.html#82"><abbr title="Application_Log::format_message">format_message</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application_log.php.html#105"><abbr title="Application_Log::format_journal_params">format_journal_params</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application_log.php.html#176"><abbr title="Application_Log::save_log_file">save_log_file</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application_log.php.html#124"><abbr title="Application_Log::test_mode_journal">test_mode_journal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Assets.php.html#584"><abbr title="Assets::minify">minify</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Assets.php.html#461"><abbr title="Assets::get_minified_links">get_minified_links</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cssmin.php.html#78"><abbr title="cssmin::minify">minify</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cssmin.php.html#140"><abbr title="Minify_CSS::minify">minify</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cssmin.php.html#70"><abbr title="cssmin::config">config</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Assets.php.html#623"><abbr title="Assets::get_cache_filename">get_cache_filename</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cssmin.php.html#64"><abbr title="cssmin::cssmin">cssmin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Assets.php.html#859"><abbr title="Assets::get_file">get_file</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cssmin.php.html#167"><abbr title="Minify_CSS::_minify">_minify</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Assets.php.html#671"><abbr title="Assets::update_cache">update_cache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cssmin.php.html#279"><abbr title="Minify_CSS::_selectorsCB">_selectorsCB</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Assets.php.html#703"><abbr title="Assets::get_last_modified">get_last_modified</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Assets.php.html#822"><abbr title="Assets::read_file">read_file</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Assets.php.html#373"><abbr title="Assets::get_links">get_links</abbr></a></td><td class="text-right">37%</td></tr>
+       <tr><td><a href="Assets.php.html#238"><abbr title="Assets::get_group_assets">get_group_assets</abbr></a></td><td class="text-right">45%</td></tr>
+       <tr><td><a href="Memcached_Library.php.html#14"><abbr title="Memcached_Library::__construct">__construct</abbr></a></td><td class="text-right">65%</td></tr>
+       <tr><td><a href="Application_log.php.html#138"><abbr title="Application_Log::set_full_path">set_full_path</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Memcached_Library.php.html#61"><abbr title="Memcached_Library::auto_connect">auto_connect</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Application_log.php.html#31"><abbr title="Application_Log::set_file_path">set_file_path</abbr></a></td><td class="text-right">71%</td></tr>
+       <tr><td><a href="Assets.php.html#64"><abbr title="Assets::initialize">initialize</abbr></a></td><td class="text-right">72%</td></tr>
+       <tr><td><a href="Assets.php.html#731"><abbr title="Assets::get_config_options">get_config_options</abbr></a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="Assets.php.html#315"><abbr title="Assets::get_assets">get_assets</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Assets.php.html#771"><abbr title="Assets::tag">tag</abbr></a></td><td class="text-right">81%</td></tr>
+       <tr><td><a href="Assets.php.html#888"><abbr title="Assets::get_path">get_path</abbr></a></td><td class="text-right">84%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="JSMin.php.html#95"><abbr title="JSMin::action">action</abbr></a></td><td class="text-right">600</td></tr>
+       <tr><td><a href="JSMin.php.html#204"><abbr title="JSMin::min">min</abbr></a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="JSMin.php.html#300"><abbr title="JSMin::next">next</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Cssmin.php.html#309"><abbr title="Minify_CSS::_commentCB">_commentCB</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Cssmin.php.html#365"><abbr title="Minify_CSS::_urlCB">_urlCB</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Memcached_Library.php.html#143"><abbr title="Memcached_Library::set">set</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Memcached_Library.php.html#99"><abbr title="Memcached_Library::add">add</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Memcached_Library.php.html#260"><abbr title="Memcached_Library::replace">replace</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Assets.php.html#623"><abbr title="Assets::get_cache_filename">get_cache_filename</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="JSMin.php.html#168"><abbr title="JSMin::get">get</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Assets.php.html#427"><abbr title="Assets::get_combined_link">get_combined_link</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Assets.php.html#507"><abbr title="Assets::get_combined_minified_link">get_combined_minified_link</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Application_log.php.html#82"><abbr title="Application_Log::format_message">format_message</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Assets.php.html#92"><abbr title="Assets::remove">remove</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Memcached_Library.php.html#187"><abbr title="Memcached_Library::get">get</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="MY_session.php.html#73"><abbr title="MY_Session::initialize">initialize</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Memcached_Library.php.html#225"><abbr title="Memcached_Library::delete">delete</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Assets.php.html#461"><abbr title="Assets::get_minified_links">get_minified_links</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Cssmin.php.html#481"><abbr title="Minify_CommentPreserver::process">process</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Cssmin.php.html#513"><abbr title="Minify_CommentPreserver::_nextComment">_nextComment</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Assets.php.html#822"><abbr title="Assets::read_file">read_file</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Cssmin.php.html#167"><abbr title="Minify_CSS::_minify">_minify</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="MY_session.php.html#299"><abbr title="MY_Session::_flashdata_mark">_flashdata_mark</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Assets.php.html#584"><abbr title="Assets::minify">minify</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Assets.php.html#208"><abbr title="Assets::group">group</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Assets.php.html#703"><abbr title="Assets::get_last_modified">get_last_modified</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="MY_session.php.html#242"><abbr title="MY_Session::set_flashdata">set_flashdata</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="MY_session.php.html#204"><abbr title="MY_Session::unset_userdata">unset_userdata</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Application_log.php.html#51"><abbr title="Application_Log::write_log">write_log</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Assets.php.html#373"><abbr title="Assets::get_links">get_links</abbr></a></td><td class="text-right">18</td></tr>
+       <tr><td><a href="Assets.php.html#238"><abbr title="Assets::get_group_assets">get_group_assets</abbr></a></td><td class="text-right">14</td></tr>
+       <tr><td><a href="Memcached_Library.php.html#332"><abbr title="Memcached_Library::getstats">getstats</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="JSMin.php.html#199"><abbr title="JSMin::isAlphaNum">isAlphaNum</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MY_session.php.html#160"><abbr title="MY_Session::userdata">userdata</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MY_session.php.html#184"><abbr title="MY_Session::set_userdata">set_userdata</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MY_session.php.html#320"><abbr title="MY_Session::_flashdata_sweep">_flashdata_sweep</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Cssmin.php.html#140"><abbr title="Minify_CSS::minify">minify</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Assets.php.html#546"><abbr title="Assets::get_minified_path">get_minified_path</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Application_log.php.html#199"><abbr title="Application_Log::save_journal_file">save_journal_file</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Application_log.php.html#176"><abbr title="Application_Log::save_log_file">save_log_file</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Application_log.php.html#105"><abbr title="Application_Log::format_journal_params">format_journal_params</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Assets.php.html#859"><abbr title="Assets::get_file">get_file</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Assets.php.html#671"><abbr title="Assets::update_cache">update_cache</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Cssmin.php.html#78"><abbr title="cssmin::minify">minify</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Memcached_Library.php.html#14"><abbr title="Memcached_Library::__construct">__construct</abbr></a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="Assets.php.html#315"><abbr title="Assets::get_assets">get_assets</abbr></a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Assets.php.html#771"><abbr title="Assets::tag">tag</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Application_log.php.html#231"><abbr title="Application_Log::close_log">close_log</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MY_session.php.html#47"><abbr title="MY_Session::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Cssmin.php.html#70"><abbr title="cssmin::config">config</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MY_session.php.html#134"><abbr title="MY_Session::is_expired">is_expired</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Memcached_Library.php.html#356"><abbr title="Memcached_Library::setcompressthreshold">setcompressthreshold</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MY_session.php.html#112"><abbr title="MY_Session::sess_create">sess_create</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Assets.php.html#731"><abbr title="Assets::get_config_options">get_config_options</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Assets.php.html#64"><abbr title="Assets::initialize">initialize</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Assets.php.html#888"><abbr title="Assets::get_path">get_path</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="Memcached_Library.php.html#61"><abbr title="Memcached_Library::auto_connect">auto_connect</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Application_log.php.html#31"><abbr title="Application_Log::set_file_path">set_file_path</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Application_log.php.html#138"><abbr title="Application_Log::set_full_path">set_full_path</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.2.4</a> using <a href="https://secure.php.net/" target="_top">PHP 5.5.9-1ubuntu4.19</a> and <a href="https://phpunit.de/">PHPUnit 4.8.27</a> at Mon Sep 5 22:43:40 BST 2016.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../js/holder.min.js" type="text/javascript"></script>
+  <script src="../js/d3.min.js" type="text/javascript"></script>
+  <script src="../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([5,0,1,1,1,0,0,0,0,0,0,1], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([64,0,0,0,1,1,0,3,3,3,1,7], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[25.190839694656,34,"<a href=\"Application_log.php.html#3\">Application_Log<\/a>"],[37.150837988827,110,"<a href=\"Assets.php.html#14\">Assets<\/a>"],[0,6,"<a href=\"Cssmin.php.html#61\">cssmin<\/a>"],[0,29,"<a href=\"Cssmin.php.html#108\">Minify_CSS<\/a>"],[0,8,"<a href=\"Cssmin.php.html#450\">Minify_CommentPreserver<\/a>"],[0,70,"<a href=\"JSMin.php.html#60\">JSMin<\/a>"],[100,0,"<a href=\"JSMin.php.html#356\">JSMinException<\/a>"],[0,37,"<a href=\"MY_session.php.html#30\">MY_Session<\/a>"],[13.690476190476,54,"<a href=\"Memcached_Library.php.html#4\">Memcached_Library<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Application_log.php.html#24\">Application_Log::__construct<\/a>"],[71.428571428571,3,"<a href=\"Application_log.php.html#31\">Application_Log::set_file_path<\/a>"],[0,4,"<a href=\"Application_log.php.html#51\">Application_Log::write_log<\/a>"],[0,1,"<a href=\"Application_log.php.html#76\">Application_Log::write_error<\/a>"],[0,6,"<a href=\"Application_log.php.html#82\">Application_Log::format_message<\/a>"],[0,3,"<a href=\"Application_log.php.html#105\">Application_Log::format_journal_params<\/a>"],[0,1,"<a href=\"Application_log.php.html#124\">Application_Log::test_mode_journal<\/a>"],[66.666666666667,2,"<a href=\"Application_log.php.html#138\">Application_Log::set_full_path<\/a>"],[100,4,"<a href=\"Application_log.php.html#152\">Application_Log::get_file_lines_count<\/a>"],[0,3,"<a href=\"Application_log.php.html#176\">Application_Log::save_log_file<\/a>"],[0,3,"<a href=\"Application_log.php.html#199\">Application_Log::save_journal_file<\/a>"],[0,1,"<a href=\"Application_log.php.html#226\">Application_Log::clean_content<\/a>"],[0,2,"<a href=\"Application_log.php.html#231\">Application_Log::close_log<\/a>"],[100,2,"<a href=\"Assets.php.html#42\">Assets::__construct<\/a>"],[72.727272727273,4,"<a href=\"Assets.php.html#64\">Assets::initialize<\/a>"],[0,6,"<a href=\"Assets.php.html#92\">Assets::remove<\/a>"],[90.625,8,"<a href=\"Assets.php.html#149\">Assets::add<\/a>"],[0,4,"<a href=\"Assets.php.html#208\">Assets::group<\/a>"],[45.454545454545,7,"<a href=\"Assets.php.html#238\">Assets::get_group_assets<\/a>"],[100,1,"<a href=\"Assets.php.html#282\">Assets::get_styles<\/a>"],[100,1,"<a href=\"Assets.php.html#298\">Assets::get_scripts<\/a>"],[80.645161290323,8,"<a href=\"Assets.php.html#315\">Assets::get_assets<\/a>"],[37.5,7,"<a href=\"Assets.php.html#373\">Assets::get_links<\/a>"],[100,2,"<a href=\"Assets.php.html#405\">Assets::get_raw_links<\/a>"],[0,6,"<a href=\"Assets.php.html#427\">Assets::get_combined_link<\/a>"],[0,5,"<a href=\"Assets.php.html#461\">Assets::get_minified_links<\/a>"],[0,6,"<a href=\"Assets.php.html#507\">Assets::get_combined_minified_link<\/a>"],[0,3,"<a href=\"Assets.php.html#546\">Assets::get_minified_path<\/a>"],[0,4,"<a href=\"Assets.php.html#584\">Assets::minify<\/a>"],[0,7,"<a href=\"Assets.php.html#623\">Assets::get_cache_filename<\/a>"],[0,3,"<a href=\"Assets.php.html#671\">Assets::update_cache<\/a>"],[0,4,"<a href=\"Assets.php.html#703\">Assets::get_last_modified<\/a>"],[77.777777777778,5,"<a href=\"Assets.php.html#731\">Assets::get_config_options<\/a>"],[81.818181818182,6,"<a href=\"Assets.php.html#771\">Assets::tag<\/a>"],[0,4,"<a href=\"Assets.php.html#822\">Assets::read_file<\/a>"],[0,3,"<a href=\"Assets.php.html#859\">Assets::get_file<\/a>"],[84.615384615385,4,"<a href=\"Assets.php.html#888\">Assets::get_path<\/a>"],[0,1,"<a href=\"Cssmin.php.html#64\">cssmin::cssmin<\/a>"],[0,2,"<a href=\"Cssmin.php.html#70\">cssmin::config<\/a>"],[0,3,"<a href=\"Cssmin.php.html#78\">cssmin::minify<\/a>"],[0,3,"<a href=\"Cssmin.php.html#140\">Minify_CSS::minify<\/a>"],[0,4,"<a href=\"Cssmin.php.html#167\">Minify_CSS::_minify<\/a>"],[0,1,"<a href=\"Cssmin.php.html#279\">Minify_CSS::_selectorsCB<\/a>"],[0,10,"<a href=\"Cssmin.php.html#309\">Minify_CSS::_commentCB<\/a>"],[0,10,"<a href=\"Cssmin.php.html#365\">Minify_CSS::_urlCB<\/a>"],[0,1,"<a href=\"Cssmin.php.html#423\">Minify_CSS::_fontFamilyCB<\/a>"],[0,4,"<a href=\"Cssmin.php.html#481\">Minify_CommentPreserver::process<\/a>"],[0,4,"<a href=\"Cssmin.php.html#513\">Minify_CommentPreserver::_nextComment<\/a>"],[0,1,"<a href=\"JSMin.php.html#76\">JSMin::minify<\/a>"],[0,1,"<a href=\"JSMin.php.html#84\">JSMin::__construct<\/a>"],[0,24,"<a href=\"JSMin.php.html#95\">JSMin::action<\/a>"],[0,7,"<a href=\"JSMin.php.html#168\">JSMin::get<\/a>"],[0,3,"<a href=\"JSMin.php.html#199\">JSMin::isAlphaNum<\/a>"],[0,23,"<a href=\"JSMin.php.html#204\">JSMin::min<\/a>"],[0,10,"<a href=\"JSMin.php.html#300\">JSMin::next<\/a>"],[0,1,"<a href=\"JSMin.php.html#347\">JSMin::peek<\/a>"],[0,2,"<a href=\"MY_session.php.html#47\">MY_Session::__construct<\/a>"],[0,6,"<a href=\"MY_session.php.html#73\">MY_Session::initialize<\/a>"],[0,2,"<a href=\"MY_session.php.html#112\">MY_Session::sess_create<\/a>"],[0,2,"<a href=\"MY_session.php.html#134\">MY_Session::is_expired<\/a>"],[0,1,"<a href=\"MY_session.php.html#148\">MY_Session::sess_destroy<\/a>"],[0,3,"<a href=\"MY_session.php.html#160\">MY_Session::userdata<\/a>"],[0,3,"<a href=\"MY_session.php.html#184\">MY_Session::set_userdata<\/a>"],[0,4,"<a href=\"MY_session.php.html#204\">MY_Session::unset_userdata<\/a>"],[0,1,"<a href=\"MY_session.php.html#228\">MY_Session::all_userdata<\/a>"],[0,4,"<a href=\"MY_session.php.html#242\">MY_Session::set_flashdata<\/a>"],[0,1,"<a href=\"MY_session.php.html#266\">MY_Session::keep_flashdata<\/a>"],[0,1,"<a href=\"MY_session.php.html#286\">MY_Session::flashdata<\/a>"],[0,4,"<a href=\"MY_session.php.html#299\">MY_Session::_flashdata_mark<\/a>"],[0,3,"<a href=\"MY_session.php.html#320\">MY_Session::_flashdata_sweep<\/a>"],[65.217391304348,7,"<a href=\"Memcached_Library.php.html#14\">Memcached_Library::__construct<\/a>"],[66.666666666667,3,"<a href=\"Memcached_Library.php.html#61\">Memcached_Library::auto_connect<\/a>"],[100,1,"<a href=\"Memcached_Library.php.html#85\">Memcached_Library::add_server<\/a>"],[0,8,"<a href=\"Memcached_Library.php.html#99\">Memcached_Library::add<\/a>"],[0,8,"<a href=\"Memcached_Library.php.html#143\">Memcached_Library::set<\/a>"],[0,6,"<a href=\"Memcached_Library.php.html#187\">Memcached_Library::get<\/a>"],[0,5,"<a href=\"Memcached_Library.php.html#225\">Memcached_Library::delete<\/a>"],[0,8,"<a href=\"Memcached_Library.php.html#260\">Memcached_Library::replace<\/a>"],[0,1,"<a href=\"Memcached_Library.php.html#305\">Memcached_Library::flush<\/a>"],[0,1,"<a href=\"Memcached_Library.php.html#318\">Memcached_Library::getversion<\/a>"],[0,3,"<a href=\"Memcached_Library.php.html#332\">Memcached_Library::getstats<\/a>"],[0,2,"<a href=\"Memcached_Library.php.html#356\">Memcached_Library::setcompressthreshold<\/a>"],[0,1,"<a href=\"Memcached_Library.php.html#379\">Memcached_Library::key_name<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

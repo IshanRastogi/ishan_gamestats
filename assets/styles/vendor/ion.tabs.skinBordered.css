@@ -1,0 +1,105 @@
+/* Ion.Tabs: Bordered Skin
+// css version 1.0.0
+// by Denis Ineshin | ionden.com
+// ===================================================================================================================*/
+
+/* =====================================================================================================================
+// Ion.Tabs: Skin details */
+
+.ionTabs {
+    margin: 0 0 30px;
+}
+    .ionTabs__head {
+        border-bottom: 0px solid #cecece;
+    }
+
+    .ionTabs__tab {
+        font-size: 12px; 
+        line-height: 13px;
+        border-bottom: none;
+        padding: 7px 25px 7px;
+        margin-right: 10px;
+        color: #666666;
+        margin-top: 10px;
+        text-align: center;
+        min-width: 50px;
+    }
+        .ionTabs__tab:hover {
+            background: #DDDDDD;
+        }
+        .ionTabs__tab.ionTabs__tab_state_active {
+            top: 1px;
+            margin-top: 0;
+            padding: 12px 25px 11px;
+            color: #FFFFFF;
+            border-top: 1px solid #AAAAAA;
+            border-bottom: 1px solid #AAAAAA;
+            border-top: 1px solid #AAAAAA;
+            border-left: 1px solid #AAAAAA;
+            border-right: 1px solid #AAAAAA;
+            background-color: #116BB4;
+        }
+
+    .ionTabs__body {
+        border: 0px solid #cecece;
+        border-top: none;
+    }
+
+    .ionTabs__item {
+        padding: 10px 0px;
+    }
+
+    .ionTabs__preloader {
+        height: 50px;
+        background: url(/assets/styles/images/preloader-flat.gif) no-repeat 25px 50%;
+    }
+
+/*
+.ionTabs {
+    margin: 0 0 30px;
+}
+    .ionTabs__head {
+        border-bottom: 1px solid #cecece;
+    }
+
+    .ionTabs__tab {
+        font-size: 11px; line-height: 13px;
+        background: #ededed;
+        border: 1px solid #cecece;
+        border-bottom: none;
+        padding: 7px 25px 7px;
+        margin-right: 10px;
+        color: #484848;
+        margin-top: 10px;
+        text-align: center;
+        min-width: 50px;
+    }
+        .ionTabs__tab:hover {
+            background: #e5e5e5;
+        }
+        .ionTabs__tab.ionTabs__tab_state_active {
+            top: 1px;
+            margin-top: 0;
+            padding: 12px 25px 11px;
+            background: #fff;
+            color: #116BB4;
+            border-top-color: #116BB4;
+            border-bottom: 1px solid #fff;
+        }
+
+    .ionTabs__body {
+        background: #fff;
+        border: 1px solid #cecece;
+        border-top: none;
+    }
+
+    .ionTabs__item {
+        padding: 15px 26px;
+    }
+
+    .ionTabs__preloader {
+        height: 50px;
+        background: url(../img/preloader-flat.gif) no-repeat 25px 50%;
+    }
+
+    */pre
